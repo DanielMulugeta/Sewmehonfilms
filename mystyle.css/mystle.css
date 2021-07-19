@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Josefin Sans";
+  color: white;
+}
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sebliyeimg {
+  width: 1366px;
+  height: 700px;
+  margin: none;
+}
+.logo {
+  width: 50px;
+  height: 70px;
+
+  cursor: pointer;
+}
+.h1 {
+  font-weight: 700;
+  font-style: normal;
+  size: 42px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.h2 {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 24px;
+}
+header {
+  position: fixed; /* to make the navigation bar move with the scroll */
+  width: 100%; /* to fit all the window since it doesnt know thw size from parent ... */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  font-weight: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  text-decoration: none;
+}
+.nav_links li a:hover {
+  text-decoration: underline;
+}
+
+.img3 {
+  display: flex;
+  width: 900px;
+  height: 500px;
+}
+
+.sec1 {
+  display: flex;
+  margin: 200px 120px;
+}
+.size {
+  padding-right: 120px;
+}
+.ebshu {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("/img/sebliye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.who {
+  color: #fdc838;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+.button {
+  background-color: #fdc838;
+  border-radius: 20px;
+  color: black;
+  width: 120px;
+  height: 34px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.title {
+  color: #fdc838;
+  font-size: 12px;
+  line-height: 14.06px;
+  text-align: center;
+}
+section > h2 {
+  text-align: center;
+}
+
+#services {
+  display: flex;
+  padding: 20px 200px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.alldiv {
+  flex: 0 0 27%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.icon {
+  width: 46.88px;
+  height: 46.88px;
+  padding-bottom: 15px;
+}
+.inerDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section3div1 {
+  height: 500px;
+  width: 700px;
+
+  background-image: url("/img/Image (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section3div2 {
+  height: 500px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-image: url("/img/IMG2.png");
+  background-size: cover;
+  background-position: center;
+}
+.section3div3 {
+  height: 500px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-image: url("/img/IMG4.png");
+  background-size: cover;
+  background-position: center;
+}
+.section3div4 {
+  height: 500px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-image: url("/img/IMG5.png");
+  background-size: cover;
+  background-position: center;
+}
+.section3innerdiv {
+  color: yellow;
+  font-size: 30px;
+}
+.push-to-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+div > h2 {
+  text-align: center;
+}
+.section4div {
+  display: flex;
+  justify-content: space-around;
+  padding: 200px;
+  font-weight: 800;
+  font-size: 24px;
+}
+.section4innerdiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section4title {
+  color: #fdc838;
+  font-size: 24px;
+  text-align: center;
+}
+.sec5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 1000px; */
+  /* border: 1px solid red; */
+}
+.sec5size {
+  padding: 2em;
+  margin: 1em;
+  /* height: 300px;
+  width: 700px; */
+  flex-basis: 50%;
+}
