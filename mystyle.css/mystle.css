@@ -80,7 +80,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url("/img/sebliye.png");
+  background-image: url("/sewmehonfilms/img/sebliye.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -146,7 +146,7 @@ section > h2 {
   height: 500px;
   width: 700px;
 
-  background-image: url("/img/Image (1).png");
+  background-image: url("/sewmehonfilms/img/Image (1).png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,7 +156,7 @@ section > h2 {
   height: 500px;
   width: 700px;
   background-repeat: no-repeat;
-  background-image: url("/img/IMG2.png");
+  background-image: url("/sewmehonfilms/img/IMG2.png");
   background-size: cover;
   background-position: center;
 }
@@ -164,7 +164,7 @@ section > h2 {
   height: 500px;
   width: 700px;
   background-repeat: no-repeat;
-  background-image: url("/img/IMG4.png");
+  background-image: url("/sewmehonfilms/img/IMG4.png");
   background-size: cover;
   background-position: center;
 }
@@ -172,7 +172,7 @@ section > h2 {
   height: 500px;
   width: 700px;
   background-repeat: no-repeat;
-  background-image: url("/img/IMG5.png");
+  background-image: url("/sewmehonfilms/img/IMG5.png");
   background-size: cover;
   background-position: center;
 }
